@@ -73,7 +73,7 @@ jobs:
 
     - name: Install Caddy Server
       run: |
-        sudo curl -sL -o /usr/bin/caddy https://github.com/sbwml/r4s_build_script/releases/download/caddy/caddy
+        sudo curl -sL -o /usr/bin/caddy https://github.com/OPPEN321/caddy/releases/download/v2.10.2/caddy-amd64
         sudo chmod 755 /usr/bin/caddy
         echo ":8080 {" > caddyfile
         echo "    root * $(pwd)/r4s_build_script" >> caddyfile
