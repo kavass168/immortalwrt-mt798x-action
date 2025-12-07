@@ -9,8 +9,8 @@ on:
         default: 'netcore-n60-pro'
         type: choice
         options:
-          - 'cetron-ct3003-ubootmod'
-          - 'cmcc-a10-ubootmod'
+          - 'cetron-ct3003'
+          - 'cmcc-a10'
           - 'h3c-magic-nx30-pro'
           - 'imou-lc-hx3001'
           - 'nokia-ea0326gmp'
@@ -19,6 +19,8 @@ on:
           - 'clx-s20p'
           - 'netcore-n60-pro'
           - 'netcore-n60-pro-512rom'
+          - 'xiaomi-redmi-router-ax6000'
+          - 'xiaomi-redmi-router-ax6000-512rom'
           - 'jdcloud-re-cp-03'
       lan_addr:
         description: '🌐 设置默认 LAN IP 地址'
