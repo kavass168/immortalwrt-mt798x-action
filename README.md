@@ -35,23 +35,23 @@
 提供自动化编译脚本，无需复杂配置即可生成定制固件，轻松完成个性化构建。
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
-| 固件名称 | 下载地址 |
+| 设备型号 | 下载链接 |
 | -------- | -------- |
-| cetron-ct3003 | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| cmcc-a10 | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| umi-uax3000e | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| philips-hy3000 | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| newland-nl-wr8103 | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| h3c-magic-nx30-pro | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| imou-lc-hx3001 | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| nokia-ea0326gmp | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| qihoo-360t7 | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| clx-s20p | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| netcore-n60-pro | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| netcore-n60-pro-512rom | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| jdcloud-re-cp-03 | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| xiaomi-redmi-router-ax6000 | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
-| xiaomi-redmi-router-ax6000-512rom | [下载](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Cetron CT3003** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **CMCC A10** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **UMI UAX3000E** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Philips HY3000** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Newland NL-WR8103** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **H3C Magic NX30 Pro** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Imou LC-HX3001** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Nokia EA0326GMP** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Qihoo 360T7** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **CLX S20P** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Netcore N60 Pro** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Netcore N60 Pro 512ROM** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **JDCloud RE-CP-03** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Xiaomi Redmi Router AX6000** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
+| 🟢 **Xiaomi Redmi Router AX6000 512ROM** | [![下载](https://img.shields.io/badge/下载-OpenWrt-blue)](https://github.com/OPPEN321/immortalwrt-mt798x-action/releases/tag/openwrt-24.10) |
 
 ## 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
 🤣努力修复中……
