@@ -13,8 +13,8 @@ on:
           - 'cetron-ct3003'
           - 'cmcc-a10'
           - 'cmcc-rax3000m-emmc'
-          - 'cmcc-rax3000m-nand'
-          - 'cmcc-rax3000me-nand'
+          - 'cmcc-rax3000m'
+          - 'cmcc-rax3000me'
           - 'umi-uax3000e'          
           - 'h3c-magic-nx30-pro'
           - 'imou-lc-hx3001'
@@ -22,6 +22,8 @@ on:
           - 'newland-nl-wr8103'
           - 'philips-hy3000'
           - 'qihoo-360t7'
+          - 'sl-3000'
+          - 'sl-3000-emmc'
           - 'xiaomi-mi-router-ax3000t'         
           - 'clx-s20p'
           - 'netcore-n60'
@@ -140,7 +142,7 @@ jobs:
       run: |
         mkdir -p rom
         case "${{ github.event.inputs.device }}" in
-          abt-asr3000|cetron-ct3003|cmcc-a10|cmcc-rax3000m-emmc|cmcc-rax3000m-nand|cmcc-rax3000me-nand|\
+          abt-asr3000|cetron-ct3003|cmcc-a10|cmcc-rax3000m-emmc|cmcc-rax3000m|cmcc-rax3000me|\
           h3c-magic-nx30-pro|imou-lc-hx3001|nokia-ea0326gmp|philips-hy3000|qihoo-360t7|\
           newland-nl-wr8103|umi-uax3000e|xiaomi-mi-router-ax3000t|clx-s20p|netcore-n60|\
           netcore-n60-pro|netcore-n60-pro-512rom|xiaomi-redmi-router-ax6000|\
