@@ -147,6 +147,14 @@ case "$platform" in
         echo -e "${GREEN_COLOR}Model: CLX S20P${RES}"
         model="s20p"
         ;;
+    ikuai-q6000)
+        echo -e "${GREEN_COLOR}Model: iKuai Q6000${RES}"
+        model="ikuai-q6000"
+        ;;
+    ikuai-q6000-emmc)
+        echo -e "${GREEN_COLOR}Model: iKuai Q6000 EMMC${RES}"
+        model="ikuai-q6000-emmc"
+        ;;        
     netcore-n60)
         echo -e "${GREEN_COLOR}Model: Netcore N60${RES}"
         model="n60"
@@ -332,6 +340,12 @@ case "$platform" in
     clx-s20p)
         curl -s $mirror/openwrt/24-config-musl-s20p > .config
         ;;
+    ikuai-q6000)
+        curl -s $mirror/openwrt/24-config-musl-q6000 > .config
+        ;;
+    ikuai-q6000-emmc)
+        curl -s $mirror/openwrt/24-config-musl-q6000-emmc > .config
+        ;;
     netcore-n60)
         curl -s $mirror/openwrt/24-config-musl-n60 > .config
         ;;        
@@ -366,7 +380,7 @@ case "$platform" in
     abt-asr3000|cetron-ct3003|cmcc-a10|cmcc-rax3000m|cmcc-rax3000m-emmc|cmcc-rax3000me|cmcc-xr30|umi-uax3000e|h3c-magic-nx30-pro|imou-lc-hx3001|nokia-ea0326gmp|philips-hy3000|qihoo-360t7|newland-nl-wr8103|xiaomi-mi-router-ax3000t|sl-3000|sl-3000-emmc|all-mt7981-devices)
         curl -s "$mirror/openwrt/24-config-ax3000-common" >> .config
         ;;
-    jdcloud-re-cp-03|xiaomi-redmi-router-ax6000|xiaomi-redmi-router-ax6000-512rom|all-mt7986-devices)
+    jdcloud-re-cp-03|ikuai-q6000|ikuai-q6000-emmc|xiaomi-redmi-router-ax6000|xiaomi-redmi-router-ax6000-512rom|all-mt7986-devices)
         curl -s "$mirror/openwrt/24-config-ax6000-common" >> .config
         ;;
     clx-s20p|netcore-n60-pro|netcore-n60-pro-512rom|all-high-power-devices)
