@@ -27,6 +27,8 @@ on:
           - 'sl-3000-emmc'
           - 'xiaomi-mi-router-ax3000t'         
           - 'clx-s20p'
+          - 'ikuai-q6000'
+          - 'ikuai-q6000-emmc'
           - 'netcore-n60'
           - 'netcore-n60-pro'
           - 'netcore-n60-pro-512rom'
@@ -147,7 +149,7 @@ jobs:
           h3c-magic-nx30-pro|imou-lc-hx3001|nokia-ea0326gmp|philips-hy3000|qihoo-360t7|sl-3000|\
           sl-3000-emmc|newland-nl-wr8103|umi-uax3000e|xiaomi-mi-router-ax3000t|clx-s20p|netcore-n60|\
           netcore-n60-pro|netcore-n60-pro-512rom|xiaomi-redmi-router-ax6000|xiaomi-redmi-router-ax6000-512rom|\
-          jdcloud-re-cp-03|all-mt7981-devices|all-mt7986-devices|all-high-power-devices)
+          ikuai-q6000|ikuai-q6000-emmc|jdcloud-re-cp-03|all-mt7981-devices|all-mt7986-devices|all-high-power-devices)
               cp -a openwrt/bin/targets/mediatek/*/*-sysupgrade.bin rom/
               ;;
         esac
