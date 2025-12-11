@@ -54,7 +54,7 @@ git clone https://$github/timsaya/luci-app-bandix package/luci-app-bandix
 git clone https://$github/timsaya/openwrt-bandix package/openwrt-bandix
 
 # package_new_istore
-git clone https://github.com/sbwml/package_new_istore package/istore
+git clone https://$github/QuickWrt/package_new_istore package/istore
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
