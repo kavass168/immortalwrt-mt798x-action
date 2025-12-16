@@ -7,6 +7,7 @@ rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/packages/net/open-app-filter
 rm -rf feeds/packages/lang/golang
 rm -rf packages/libs/libxcrypt
+rm -rf feeds/packages/net/dawn
 
 # Git稀疏克隆，只克隆指定目录到本地
 function git_sparse_clone() {
@@ -52,6 +53,13 @@ git clone https://$github/timsaya/luci-app-bandix package/new/luci-app-bandix
 
 # openwrt-bandix
 git clone https://$github/timsaya/openwrt-bandix package/new/openwrt-bandix
+
+# nikki
+git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
+#dawn
+git clone --depth=1 https://github.com/berlin-open-wireless-lab/DAWN.git ~/DAWN
+ln -s ~/DAWN/.git/ ~/openwrt/feeds/packages/net/dawn/git-
+
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
